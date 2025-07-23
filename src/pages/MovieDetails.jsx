@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
 const MovieDetails = () => {
   const { id } = useParams();

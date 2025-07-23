@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MovieCard from '../components/MovieCard';
 
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
 const popularKeywords = ["Avengers", "Batman", "Spider-Man", "Harry Potter", "Star Wars", "Matrix", "Mission Impossible", "Fast", "Transformers", "Jurassic"];
 
