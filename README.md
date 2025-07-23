@@ -24,25 +24,7 @@ A responsive React movie app using OMDb API. Browse trending movies, search by t
    Visit [http://localhost:5173](http://localhost:5173) (or as shown in terminal)
 
 ## API
-- Uses [OMDb API](https://www.omdbapi.com/) (key: `8df7c926`)
-
-## Folder Structure
-```
-movie-app/
-  src/
-    components/
-      MovieCard.jsx
-    pages/
-      Home.jsx
-      Favorites.jsx
-      MovieDetails.jsx
-    App.jsx
-    main.jsx
-    ...
-  public/
-  package.json
-  README.md
-```
+- Uses [OMDb API](https://www.omdbapi.com/) (key: `YOUR_API_KEY`)
 
 ## Author
 Made by Jigar Shah
