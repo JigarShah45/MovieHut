@@ -16,7 +16,7 @@ export default function App() {
             style={{ textDecoration: 'none' }}
             end
           >
-            <img src={logo} alt="MovieHut Logo" className="h-12 w-12 object-contain bg-white rounded shadow p-1" />
+            <img src={logo} alt="MovieHut Logo" className="h-12 w-12 object-contain  bg-gray-950 rounded shadow p-1" />
             MovieHut
           </NavLink>
         </div>
