@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MovieCard from '../components/MovieCard';
 
-const API_KEY = '8df7c926';
+const API_KEY = 'YOUR_API_KEY';
 
 const popularKeywords = ["Avengers", "Batman", "Spider-Man", "Harry Potter", "Star Wars", "Matrix", "Mission Impossible", "Fast", "Transformers", "Jurassic"];
 
