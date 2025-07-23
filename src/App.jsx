@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-do
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import MovieDetails from "./pages/MovieDetails";
+import logo from "./assets/logo-moviehut.png";
 
 export default function App() {
   return (
@@ -11,11 +12,12 @@ export default function App() {
         <div className="flex items-center gap-2">
           <NavLink
             to="/"
-            className="text-xl font-bold tracking-wide hover:underline cursor-pointer"
+            className="flex items-center gap-2 text-xl font-bold tracking-wide hover:underline cursor-pointer"
             style={{ textDecoration: 'none' }}
             end
           >
-            🎬 MovieHut
+            <img src={logo} alt="MovieHut Logo" className="h-12 w-12 object-contain bg-white rounded shadow p-1" />
+            MovieHut
           </NavLink>
         </div>
         <div className="flex gap-4">
